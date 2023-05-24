@@ -2,7 +2,7 @@ import React from 'react';
 
 function Translation({ doStuff, setInput, result }) {
     return (
-        <div>
+        <div className='trans'>
       <textarea
         className="text-area"
         cols={55}
